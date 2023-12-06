@@ -1,0 +1,76 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.conteiner{
+    width: 380px;
+    background-color: white;
+    padding: 50px;
+}
+body{
+    background: linear-gradient(90deg,#0c0cfa,#ff0000c9);
+        margin-top: 150px;
+        margin-bottom: 100px;
+        margin-left: 450px;
+        margin-right: 100px;
+        text-align: center;
+}
+.lembrarsenha{
+    display: flex;
+    gap: 5px;
+}/*
+@media screen and (max-width: 300px) and (min-width:180px){
+    .main{
+        padding: 20px;
+        margin: 0 3rem;
+    }
+}*/
+.login{
+    background-color: rgb(255, 0, 0);
+    width: 150px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.facebook{
+    background-color: #ce0b0bb6;
+    border: none;
+    cursor: pointer;
+
+}
+.google{
+    background-color: #ce0b0bb6;
+    border: none;
+    cursor: pointer;
+}    
+.texto{
+    text-decoration: black;
+}
+.logingroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 60%;
+}
+.lembrarsenha input{
+    width: 16px;
+}
+hgroup button{
+    padding: 10px;
+}
+.facebookfoto{
+    width: 20px;
+}
+.googlefoto{
+    width: 20px;
+}
